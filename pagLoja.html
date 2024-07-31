@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo Tailwindcss</title>
+    <link rel="shortcut icon" href="imagens/logoPepsi.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="max-w-7xl m-auto">
+        <header class="h-28 sm:h-24 border-b">
+            <div class="flex justify-between items-center py-2 mx-2">
+                <div class="flex items-center">
+                    <img src="imagens/logoPepsi.png" class="w-12">
+                    <span class="ml-2 text-2xl">PepsiMan</span>
+                </div>
+                <nav>
+                    <span class="p-3 hover:bg-yellow-500 hover:cursor-pointer hover:rounded">Home</span>
+                    <span class="p-3 hover:bg-yellow-500 hover:cursor-pointer hover:rounded">Produtos</span>
+                    <span class="p-3 hover:bg-yellow-500 hover:cursor-pointer hover:rounded">Sobre nós</span>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="text-center my-20">
+                <h1 class="text-4xl">Descubra o Mundo da Pepsi - Estudo de tailwindcss</h1>
+                <p class="text-xl mt-2 mb-7">Explore nossos produtos icônicos e fique por dentro das últimas novidades e promoções exclusivas. Sinta o sabor da inovação e da tradição com cada gole.</p>
+                
+                <button class="text-lg border p-3 rounded text-slate-50 bg-logo-700 hover:bg-logo-800">Saiba mais</button>
+            </section>
+            <section class="my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-4">
+                <div class="text-center">
+                    <div class="max-w-sm border rounded p-3 hover:cursor-pointer">
+                        <img class="rounded-md mx-auto" src="imagens/produto.png" alt="Imagem de uma lata de Pepsi" style="height: 200px; width: 200px;">
+                        <h1 class="text-2xl my-5">Lata de Pepsi</h1>
+                        <p>Melhor do que Coca?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="max-w-sm border rounded p-3 hover:cursor-pointer">
+                        <img class="rounded-md mx-auto" src="imagens/produto.png" alt="Imagem de uma lata de Pepsi" style="height: 200px; width: 200px;">
+                        <h1 class="text-2xl my-5">Lata de Pepsi</h1>
+                        <p>Melhor do que Coca?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="max-w-sm border rounded p-3 hover:cursor-pointer">
+                        <img class="rounded-md mx-auto" src="imagens/produto.png" alt="Imagem de uma lata de Pepsi" style="height: 200px; width: 200px;">
+                        <h1 class="text-2xl my-5">Lata de Pepsi</h1>
+                        <p>Melhor do que Coca?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="max-w-sm border rounded p-3 hover:cursor-pointer">
+                        <img class="rounded-md mx-auto" src="imagens/produto.png" alt="Imagem de uma lata de Pepsi" style="height: 200px; width: 200px;">
+                        <h1 class="text-2xl my-5">Lata de Pepsi</h1>
+                        <p>Melhor do que Coca?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="max-w-sm border rounded p-3 hover:cursor-pointer">
+                        <img class="rounded-md mx-auto" src="imagens/produto.png" alt="Imagem de uma lata de Pepsi" style="height: 200px; width: 200px;">
+                        <h1 class="text-2xl my-5">Lata de Pepsi</h1>
+                        <p>Melhor do que Coca?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="max-w-sm border rounded p-3 hover:cursor-pointer">
+                        <img class="rounded-md mx-auto" src="imagens/produto.png" alt="Imagem de uma lata de Pepsi" style="height: 200px; width: 200px;">
+                        <h1 class="text-2xl my-5">Lata de Pepsi</h1>
+                        <p>Melhor do que Coca?</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="h-16 border-t py-4 text-center mt-7">
+            <p class="text-lg text-slate-9000">Feito por João, tendo como base codigo de react-JS-Masterclass-Go-From-Zero-To-Job-Ready</p>
+        </footer>
+    </div>
+</body>
+
+</html>
